@@ -1,7 +1,8 @@
 # Programa para atualização de salário de funcionários.
 # O programa recebe o valor de entrada do salário atual e devolve com o aumento dentro da margem.
 
-salarioAtual = float(input('Digite o o valor do salário atual: '))
+print('Bem-vindo(a)!')
+salarioAtual = float(input('Por favor, digite o valor do salário atual: '))
 
 # Margens de aumento: 50% a 5%.
 aumento50 = salarioAtual * 0.50
