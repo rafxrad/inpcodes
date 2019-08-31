@@ -42,16 +42,18 @@ else:
 
 
 if totalSemDesconto <= 250:
-    total = totalSemDesconto - (totalSemDesconto * 0.05)
     valorDesconto = totalSemDesconto * 0.05
+    total = totalSemDesconto - valorDesconto
+   
 
 elif totalSemDesconto > 250 and totalSemDesconto <= 500:
-    total = totalSemDesconto - (totalSemDesconto * 0.10)
     valorDesconto = totalSemDesconto * 0.10
+    total = totalSemDesconto - valorDesconto
+    
 
 else:
-    total = totalSemDesconto - (totalSemDesconto * 0.15) 
     valorDesconto = totalSemDesconto * 0.15
+    total = totalSemDesconto - valorDesconto
 
 print('Preço unitário do produto: R$', preçoUnitário )
 print('Preço total da nota: R$', totalSemDesconto)
