@@ -63,11 +63,11 @@ while True:
 
 
 
-    mediadeSalarios =  float(acumulaValor / entradas)
+    mediadeSalarios =  float(acumulaValor / entradas) * 100
 
-print('A média dos salários é: R$ ', mediadeSalarios)
-print('A quantidade de mulheres que recebem mais que R$ 1500: ', recebeMais1500)
-print('A porcentagem de homens que recebem menos que R$ 1500: ', porcentagem)
+print(f'A média dos salários é: R$ {mediadeSalarios}')
+print(f'A quantidade de mulheres que recebem mais que R$ 1500: {recebeMais1500}')
+print(f'A porcentagem de homens que recebem menos que R$ 1500: {porcentagem}%')
 print('A idade e o sexo da pessoa que recebe o maior e o menor valor: ')
-print('Menor: Idade: ' +  str(idadeMenor) + ' Sexo: ' + str(sexoMenor))
-print('Maior: Idade: ' +  str(idadeMaior) + ' Sexo: ' +  str(sexoMaior))
+print(f'Menor: Idade: {idadeMenor}  Sexo: {sexoMenor}')
+print(f'Maior: Idade: {idadeMaior}  Sexo: {sexoMaior}')
