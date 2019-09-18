@@ -1,6 +1,6 @@
 
 usuarios = 0
-Entre12e21 = 0
+Pessoas12e21 = 0
 Altura12e21 = 0
 Mais70 = 0
 Mais90 = 0
@@ -20,7 +20,7 @@ for usuario in range(1, 11):
     AcumulaAltura = AcumulaAltura + altura
 
     if idade >=12 and idade <= 21:
-        Entre12e21 = Entre12e21 + 1
+        Pessoas12e21 = Pessoas12e21 + 1
         Altura12e21 = Altura12e21 + altura
 
     elif peso > 70 and peso <= 90:
@@ -37,7 +37,7 @@ for usuario in range(1, 11):
 mediaPeso = AcumulaPeso / usuarios
 mediaIdade = AcumulaIdade / usuarios
 mediaAltura = AcumulaAltura / usuarios
-mediaAltura12 = Altura12e21 / Entre12e21
+mediaAltura12e21 = Altura12e21 / Pessoas12e21
 
 print("Número de entradas: ", usuarios)
 print('Média da altura dos usuários: ', mediaAltura)
@@ -45,5 +45,5 @@ print('Média do peso dos usuários: ', mediaPeso)
 print('Média da idade dos usuários: ', mediaIdade)
 print('Pessoas +70 kg: ', Mais70)
 print('Pessoas +90 kg: ', Mais90)
-print('Pessoas entre 12 e 21 anos: ', Entre12e21)
-print('Média de altura das pessoas entre 12 e 21 anos: ', mediaAltura12)
+print('Pessoas entre 12 e 21 anos: ', Pessoas12e21)
+print('Média de altura das pessoas entre 12 e 21 anos: ', mediaAltura12e21)
