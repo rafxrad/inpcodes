@@ -34,7 +34,7 @@ while True:
             # o programa desconta do valor atual.
             # Pedido realizado com sucesso.
 
-            if quantidadeProdutos[codigoDigitado] > 0:
+            if quantidadeProdutos[codigoDigitado] >= quantidade:
                 quantidadeProdutos[codigoDigitado] -= quantidade
                 print('Pedido recebido, obrigado. Volte sempre!')
                 # Volta ao código do cliente, onde o usuário pode optar por inserir novo pedido ou sair.
